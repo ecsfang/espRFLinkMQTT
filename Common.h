@@ -14,10 +14,10 @@
  * Global parameters
 /*********************************************************************************/
 
-#define WIFI_SSID "XXXXXX"                		// network SSID for ESP8266 to connect to
-#define WIFI_PASSWORD "XXXXXX"                	// password for the network above
+#define WIFI_SSID my_ssid                		// network SSID for ESP8266 to connect to
+#define WIFI_PASSWORD my_password              	// password for the network above
 
-#define MQTT_SERVER "192.168.1.101"             // MQTT Server
+#define MQTT_SERVER my_mqtt_server              // MQTT Server
 #define MQTT_PORT 1883                          // MQTT server port
 #define MQTT_USER ""                         	// MQTT Server user
 #define MQTT_PASSWORD ""                     	// MQTT Server password
